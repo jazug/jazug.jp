@@ -1,7 +1,7 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415751902373">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415756885954">
   <folder name="css">
     <file name="site_global.css" crc="302815045"/>
-    <file name="index.css" crc="428736169" ref="index"/>
+    <file name="index.css" crc="24116536" ref="index"/>
     <file name="goazure.css" crc="3862894271" ref="goazure"/>
   </folder>
   <folder name="scripts">
@@ -70,6 +70,6 @@
     <file name="u202-4.png" crc="474948083" ref="goazure"/>
     <file name="u202-4_2x.png" crc="236050566" ref="goazure"/>
   </folder>
-  <file name="index.html" crc="3819526605" mt="1415751894818" redirect="true"/>
+  <file name="index.html" crc="169222676" mt="1415756872451" redirect="true"/>
   <file name="goazure.html" crc="141529689" mt="1415699214935" redirect="true"/>
 </manifest>
