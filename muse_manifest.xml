@@ -1,0 +1,75 @@
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1415751902373">
+  <folder name="css">
+    <file name="site_global.css" crc="302815045"/>
+    <file name="index.css" crc="428736169" ref="index"/>
+    <file name="goazure.css" crc="3862894271" ref="goazure"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:goazure"/>
+    <file name="museutils.js" crc="3777594392" ref="index:goazure"/>
+    <file name="jquery.watch.js" crc="4144919381" ref="index:goazure"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4259541792" ref="goazure"/>
+    <file name="jquery.scrolleffects.js" crc="117544926" ref="goazure"/>
+  </folder>
+  <folder name="images">
+    <file name="jazcat-icon.png" crc="4006438227" ref="index:goazure"/>
+    <file name="u86-4.png" crc="3965742410" ref="index"/>
+    <file name="u86-4_2x.png" crc="188072037" ref="index"/>
+    <file name="u91-4.png" crc="120094356" ref="index"/>
+    <file name="u91-4_2x.png" crc="4290634398" ref="index"/>
+    <file name="u92-4.png" crc="425397905" ref="index"/>
+    <file name="u92-4_2x.png" crc="4289926346" ref="index"/>
+    <file name="u95-4.png" crc="119766661" ref="index"/>
+    <file name="u95-4_2x.png" crc="282941333" ref="index"/>
+    <file name="u93-4.png" crc="4276284106" ref="index"/>
+    <file name="u93-4_2x.png" crc="377659394" ref="index"/>
+    <file name="logonew1300x314.png" crc="4266251369" ref="index"/>
+    <file name="logonew1300x314_2x.png" crc="4062479921" ref="index"/>
+    <file name="u112-4.png" crc="4108798603" ref="index"/>
+    <file name="u112-4_2x.png" crc="315128324" ref="index"/>
+    <file name="u113-4.png" crc="3787825051" ref="index"/>
+    <file name="u113-4_2x.png" crc="528093973" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:goazure"/>
+    <file name="u158_states.png" crc="15457145" ref="index"/>
+    <file name="u158_states-r.png" crc="210949160" ref="index"/>
+    <file name="u158_states_2x.png" crc="3834456425" ref="index"/>
+    <file name="u158_states-r_2x.png" crc="116687994" ref="index"/>
+    <file name="u119-4.png" crc="391017829" ref="index"/>
+    <file name="u119-4_2x.png" crc="4036772302" ref="index"/>
+    <file name="u122-6.png" crc="383044869" ref="index"/>
+    <file name="u122-6_2x.png" crc="4186213230" ref="index"/>
+    <file name="u125-4.png" crc="3984060410" ref="index"/>
+    <file name="u125-4_2x.png" crc="3782091585" ref="index"/>
+    <file name="u127-4.png" crc="4074541610" ref="index"/>
+    <file name="u127-4_2x.png" crc="494392322" ref="index"/>
+    <file name="u126-4.png" crc="392930020" ref="index"/>
+    <file name="u126-4_2x.png" crc="4079336152" ref="index"/>
+    <file name="u121-6.png" crc="3791101509" ref="index"/>
+    <file name="u121-6_2x.png" crc="418429744" ref="index"/>
+    <file name="u140-4.png" crc="474948083" ref="index"/>
+    <file name="u140-4_2x.png" crc="236050566" ref="index"/>
+    <file name="goazure.jpg" crc="250477049" ref="goazure"/>
+    <file name="logonew1.png" crc="151321349" ref="goazure"/>
+    <file name="logonew1_2x.png" crc="373760883" ref="goazure"/>
+    <file name="u246-4.png" crc="3805844877" ref="goazure"/>
+    <file name="u246-4_2x.png" crc="20165984" ref="goazure"/>
+    <file name="u245_states.png" crc="3779854788" ref="goazure"/>
+    <file name="u245_states-r.png" crc="4083071614" ref="goazure"/>
+    <file name="u245_states_2x.png" crc="4219623013" ref="goazure"/>
+    <file name="u245_states-r_2x.png" crc="61848191" ref="goazure"/>
+    <file name="u194-6.png" crc="383044869" ref="goazure"/>
+    <file name="u194-6_2x.png" crc="4186213230" ref="goazure"/>
+    <file name="u205-4.png" crc="3984060410" ref="goazure"/>
+    <file name="u205-4_2x.png" crc="3782091585" ref="goazure"/>
+    <file name="u176-4.png" crc="4074541610" ref="goazure"/>
+    <file name="u176-4_2x.png" crc="494392322" ref="goazure"/>
+    <file name="u208-4.png" crc="392930020" ref="goazure"/>
+    <file name="u208-4_2x.png" crc="4079336152" ref="goazure"/>
+    <file name="u196-6.png" crc="3791101509" ref="goazure"/>
+    <file name="u196-6_2x.png" crc="418429744" ref="goazure"/>
+    <file name="u202-4.png" crc="474948083" ref="goazure"/>
+    <file name="u202-4_2x.png" crc="236050566" ref="goazure"/>
+  </folder>
+  <file name="index.html" crc="3819526605" mt="1415751894818" redirect="true"/>
+  <file name="goazure.html" crc="141529689" mt="1415699214935" redirect="true"/>
+</manifest>
