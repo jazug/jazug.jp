@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000001;
-	background-color: #6FFD38;
+	color: #000019;
+	background-color: #CE7A72;
 }
 
 .html
@@ -24,7 +24,7 @@
 
 #u72
 {
-	z-index: 115;
+	z-index: 116;
 	height: 100px;
 	border-style: none;
 	border-color: transparent;
@@ -35,7 +35,7 @@
 
 #u72-bw
 {
-	z-index: 115;
+	z-index: 116;
 }
 
 #top
@@ -45,7 +45,7 @@
 
 #u74
 {
-	z-index: 116;
+	z-index: 117;
 	width: 100px;
 	background-color: transparent;
 	position: fixed;
@@ -56,7 +56,7 @@
 
 #u86-4
 {
-	z-index: 118;
+	z-index: 119;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -65,7 +65,7 @@
 
 #u91-4
 {
-	z-index: 122;
+	z-index: 123;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -74,7 +74,7 @@
 
 #u92-4
 {
-	z-index: 126;
+	z-index: 127;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -83,7 +83,7 @@
 
 #u95-4
 {
-	z-index: 134;
+	z-index: 135;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -92,7 +92,7 @@
 
 #u93-4
 {
-	z-index: 130;
+	z-index: 131;
 	position: fixed;
 	top: 34px;
 	left: 50%;
@@ -197,7 +197,7 @@
 	left: 232px;
 }
 
-#u152-18
+#u152-19
 {
 	z-index: 94;
 	width: 582px;
@@ -216,7 +216,13 @@
 	font-weight: bold;
 }
 
-#u152-16
+#u152-15
+{
+	font-size: 24px;
+	line-height: 42px;
+}
+
+#u152-17
 {
 	font-size: 14px;
 	line-height: 25px;
@@ -230,7 +236,7 @@
 
 #u158
 {
-	z-index: 113;
+	z-index: 114;
 	position: relative;
 	width: 495px;
 	margin-right: -10000px;
@@ -304,7 +310,7 @@
 
 #u252-11
 {
-	z-index: 206;
+	z-index: 207;
 	width: 571px;
 	min-height: 223px;
 	border-color: #FFFFFF;
@@ -380,7 +386,7 @@
 	left: 740px;
 }
 
-#u152-14,#u150-3,#u150-10
+#u152-13,#u150-3,#u150-10
 {
 	font-size: 30px;
 	line-height: 53px;
@@ -388,7 +394,7 @@
 
 #u163-66
 {
-	z-index: 140;
+	z-index: 141;
 	width: 365px;
 	min-height: 593px;
 	border-color: #FFFFFF;
@@ -514,7 +520,7 @@
 	line-height: 25px;
 }
 
-#u152-6,#u152-10,#u152-11,#u152-12,#u149-5,#u149-6,#u149-8,#u149-10,#u149-12,#u149-14,#u149-16
+#u152-6,#u152-10,#u152-11,#u149-5,#u149-6,#u149-8,#u149-10,#u149-12,#u149-14,#u149-16
 {
 	font-size: 18px;
 	line-height: 32px;
@@ -642,7 +648,7 @@
 
 #u160
 {
-	z-index: 139;
+	z-index: 140;
 	width: 400px;
 	min-height: 85px;
 	border-style: none;
