@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000019;
-	background-color: #CE7A72;
+	color: #000011;
+	background-color: #64E4DC;
 }
 
 .html
@@ -13,18 +13,19 @@
 {
 	z-index: 1;
 	width: 1260px;
-	min-height: 4349px;
+	min-height: 1351.950000000008px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
+	padding-bottom: 0px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #u72
 {
-	z-index: 116;
+	z-index: 248;
 	height: 100px;
 	border-style: none;
 	border-color: transparent;
@@ -35,7 +36,7 @@
 
 #u72-bw
 {
-	z-index: 116;
+	z-index: 248;
 }
 
 #top
@@ -45,7 +46,7 @@
 
 #u74
 {
-	z-index: 117;
+	z-index: 249;
 	width: 100px;
 	background-color: transparent;
 	position: fixed;
@@ -56,7 +57,7 @@
 
 #u86-4
 {
-	z-index: 119;
+	z-index: 251;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -65,7 +66,7 @@
 
 #u91-4
 {
-	z-index: 123;
+	z-index: 255;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -74,7 +75,9 @@
 
 #u92-4
 {
-	z-index: 127;
+	z-index: 259;
+	display: block;
+	vertical-align: top;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -83,7 +86,9 @@
 
 #u95-4
 {
-	z-index: 135;
+	z-index: 267;
+	display: block;
+	vertical-align: top;
 	position: fixed;
 	top: 28px;
 	left: 50%;
@@ -92,7 +97,9 @@
 
 #u93-4
 {
-	z-index: 131;
+	z-index: 263;
+	display: block;
+	vertical-align: top;
 	position: fixed;
 	top: 34px;
 	left: 50%;
@@ -108,7 +115,7 @@
 
 #u106
 {
-	z-index: 9;
+	z-index: 7;
 	width: 300px;
 	background-color: transparent;
 	position: relative;
@@ -119,7 +126,7 @@
 {
 	width: 0.01px;
 	margin-right: -10000px;
-	margin-top: 88px;
+	margin-top: 62px;
 	margin-left: 522px;
 }
 
@@ -145,9 +152,9 @@
 	padding-top: 4px;
 }
 
-#u112-4
+#u112-8
 {
-	z-index: 11;
+	z-index: 9;
 	display: block;
 	vertical-align: top;
 	top: -7px;
@@ -170,11 +177,11 @@
 
 #u98
 {
-	z-index: 8;
+	z-index: 6;
 	border-style: none;
 	border-color: transparent;
 	background-color: #00A3E9;
-	padding-bottom: 90px;
+	padding-bottom: 87px;
 }
 
 #session
@@ -182,26 +189,26 @@
 	position: relative;
 	width: 22px;
 	margin-right: -10000px;
-	margin-top: 533px;
+	margin-top: 966px;
 	left: 100px;
 }
 
 #u113-4
 {
-	z-index: 15;
+	z-index: 17;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 283px;
-	left: 232px;
+	margin-top: 508px;
+	left: 211px;
 }
 
-#u152-19
+#u152-31
 {
-	z-index: 94;
+	z-index: 23;
 	width: 582px;
-	min-height: 500px;
+	min-height: 819px;
 	background-color: transparent;
 	color: #FFFFFF;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
@@ -211,36 +218,37 @@
 	left: 740px;
 }
 
-#u152-4
+#u152-22
 {
-	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	line-height: 32px;
 }
 
-#u152-15
+#u152-20
+{
+	text-decoration: underline;
+}
+
+#u152-27
 {
 	font-size: 24px;
 	line-height: 42px;
 }
 
-#u152-17
-{
-	font-size: 14px;
-	line-height: 25px;
-}
-
 #u98-bw
 {
-	z-index: 8;
-	height: 562px;
+	z-index: 6;
+	height: 984px;
 }
 
 #u158
 {
-	z-index: 114;
+	z-index: 55;
 	position: relative;
 	width: 495px;
 	margin-right: -10000px;
-	margin-top: 478px;
+	margin-top: 913px;
 	left: 739px;
 	background: url("../images/u158_states.png") no-repeat 0px 0px;
 }
@@ -269,23 +277,71 @@
 	background-size: 495px 92px;
 }
 
-#u118
+#u306-38
 {
-	z-index: 19;
+	z-index: 57;
+	width: 574px;
+	min-height: 399px;
+	background-color: #FFFFFF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	color: #555555;
+	text-align: left;
+	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 283px;
+	left: 740px;
+}
+
+#u306-2
+{
+	font-size: 24px;
+	line-height: 42px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#u306-36
+{
+	font-size: 18px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
+}
+
+#u306-6,#u306-13,#u306-20,#u306-27,#u306-34
+{
+	font-weight: bold;
+	line-height: 32px;
+}
+
+#u152-29,#u306-9,#u306-16,#u306-23,#u306-30,#u306-35
+{
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#u307
+{
+	z-index: 95;
 	border-style: none;
 	border-color: transparent;
 	background-color: #E22F8B;
-	padding-bottom: 99px;
+	padding-bottom: 86px;
 }
 
-#u118_align_to_page
+#u98_align_to_page,#u307_align_to_page
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1260px;
 	position: relative;
 	left: -100px;
-	margin-bottom: -5px;
 }
 
 #facebook
@@ -293,24 +349,24 @@
 	position: relative;
 	width: 22px;
 	margin-right: -10000px;
-	margin-top: 678px;
+	margin-top: 484px;
 	left: 100px;
 }
 
-#u119-4
+#u308-4
 {
-	z-index: 20;
+	z-index: 96;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 336px;
-	left: 213px;
+	margin-top: 251px;
+	left: 247px;
 }
 
-#u252-11
+#u309-11
 {
-	z-index: 207;
+	z-index: 100;
 	width: 571px;
 	min-height: 223px;
 	border-color: #FFFFFF;
@@ -321,34 +377,23 @@
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 93px;
-	left: 740px;
+	margin-top: 189px;
+	left: 736px;
 }
 
-#u118-bw
+#u307-bw
 {
-	z-index: 19;
-	margin-top: -5px;
-	height: 696px;
+	z-index: 95;
+	height: 502px;
 }
 
-#u120
+#u310
 {
-	z-index: 24;
+	z-index: 111;
 	border-style: none;
 	border-color: transparent;
 	background-color: #3B5998;
-	padding-bottom: 70px;
-}
-
-#u120_align_to_page
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1260px;
-	position: relative;
-	left: -100px;
-	margin-bottom: -1px;
+	padding-bottom: 53px;
 }
 
 #aboutus
@@ -356,24 +401,24 @@
 	position: relative;
 	width: 22px;
 	margin-right: -10000px;
-	margin-top: 646px;
-	left: 100px;
+	margin-top: 644px;
+	left: 112px;
 }
 
-#u121-6
+#u311-6
 {
-	z-index: 25;
+	z-index: 112;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 264px;
+	margin-top: 280px;
 	left: 177px;
 }
 
-#u150-16
+#u313-16
 {
-	z-index: 78;
+	z-index: 119;
 	width: 250px;
 	min-height: 593px;
 	border-color: #FFFFFF;
@@ -382,19 +427,19 @@
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 53px;
+	margin-top: 70px;
 	left: 740px;
 }
 
-#u152-13,#u150-3,#u150-10
+#u152-25,#u313-3,#u313-10
 {
 	font-size: 30px;
 	line-height: 53px;
 }
 
-#u163-66
+#u314-66
 {
-	z-index: 141;
+	z-index: 135;
 	width: 365px;
 	min-height: 593px;
 	border-color: #FFFFFF;
@@ -403,76 +448,70 @@
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 53px;
+	margin-top: 70px;
 	left: 995px;
 }
 
-#u163-3,#u163-10,#u163-17,#u163-24,#u163-31,#u163-38,#u163-45,#u163-52,#u163-59
+#u314-3,#u314-10,#u314-17,#u314-24,#u314-31,#u314-38,#u314-45,#u314-52,#u314-59
 {
 	font-size: 24px;
 	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
 }
 
-#u163,#u163-8,#u163-15,#u163-22,#u163-29,#u163-36,#u163-43,#u163-50,#u163-57
+#u314,#u314-8,#u314-15,#u314-22,#u314-29,#u314-36,#u314-43,#u314-50,#u314-57
 {
 	font-size: 22px;
 	line-height: 39px;
 }
 
-#u150-6,#u150-13,#u163-6,#u163-13,#u163-20,#u163-27,#u163-34,#u163-41,#u163-48,#u163-55,#u163-62
+#u313-6,#u313-13,#u314-6,#u314-13,#u314-20,#u314-27,#u314-34,#u314-41,#u314-48,#u314-55,#u314-62
 {
 	font-size: 14px;
 	line-height: 0px;/* 0 for mixed font sized paras; applied on spans instead */
 }
 
-#u150-4,#u150-11,#u163-4,#u163-11,#u163-14,#u163-18,#u163-25,#u163-32,#u163-39,#u163-46,#u163-53,#u163-60
+#u313-4,#u313-11,#u314-4,#u314-11,#u314-14,#u314-18,#u314-25,#u314-32,#u314-39,#u314-46,#u314-53,#u314-60
 {
 	font-size: 12px;
 	line-height: 12px;
 }
 
-#u150-7,#u163-7,#u163-21,#u163-28,#u163-35,#u163-42,#u163-49,#u163-56,#u163-63
+#u313-7,#u314-7,#u314-21,#u314-28,#u314-35,#u314-42,#u314-49,#u314-56,#u314-63
 {
 	font-size: 18px;
 	line-height: 18px;
 }
 
-#u150-14,#u163-64
+#u313-14,#u314-64
 {
 	font-size: 14px;
 	line-height: 14px;
 }
 
-#u120-bw
+#u310-bw
 {
-	z-index: 24;
-	margin-top: -1px;
-	height: 680px;
+	z-index: 111;
+	margin-top: -2px;
+	height: 697px;
 }
 
-#pu154
+#u315
 {
-	width: 0.01px;
-	margin-left: -100px;
-	margin-top: 1px;
-}
-
-#u154
-{
-	z-index: 6;
+	z-index: 201;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
-	padding-bottom: 82px;
+	padding-bottom: 72px;
 }
 
-#u98_align_to_page,#u154_align_to_page
+#u310_align_to_page,#u315_align_to_page
 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1260px;
 	position: relative;
 	left: -100px;
+	margin-bottom: -2px;
 }
 
 #twitter
@@ -480,24 +519,24 @@
 	position: relative;
 	width: 22px;
 	margin-right: -10000px;
-	margin-top: 672px;
+	margin-top: 682px;
 	left: 100px;
 }
 
-#u122-6
+#u316-6
 {
-	z-index: 31;
+	z-index: 202;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 300px;
-	left: 177px;
+	left: 189px;
 }
 
-#u149-18
+#u318-18
 {
-	z-index: 60;
+	z-index: 209;
 	width: 582px;
 	min-height: 370px;
 	background-color: transparent;
@@ -505,42 +544,50 @@
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 201px;
-	left: 740px;
+	left: 752px;
 }
 
-#u152-2,#u149-2
+#u152-2,#u318-2
 {
 	font-size: 30px;
 	line-height: 53px;
 	font-weight: normal;
 }
 
-#u152-7,#u152-8,#u149-3
+#u318-3
 {
 	line-height: 25px;
 }
 
-#u152-6,#u152-10,#u152-11,#u149-5,#u149-6,#u149-8,#u149-10,#u149-12,#u149-14,#u149-16
+#u152-3,#u152-5,#u152-6,#u152-7,#u152-8,#u152-9,#u152-10,#u152-11,#u152-12,#u152-13,#u152-14,#u152-15,#u152-16,#u152-17,#u152-18,#u152-19,#u152-23,#u318-5,#u318-6,#u318-8,#u318-10,#u318-12,#u318-14,#u318-16
 {
 	font-size: 18px;
 	line-height: 32px;
 }
 
-#u154-bw
+#u315-bw
 {
-	z-index: 6;
-	height: 690px;
+	z-index: 201;
+	margin-top: -2px;
+	height: 700px;
 }
 
-#u73
+#pu319
 {
-	z-index: 7;
+	width: 0.01px;
+	margin-left: -100px;
+	margin-top: 2px;
+}
+
+#u319
+{
+	z-index: 227;
 	border-style: none;
 	border-color: transparent;
 	background-color: #222222;
 }
 
-#u73_align_to_page
+#u319_align_to_page
 {
 	margin-left: auto;
 	margin-right: auto;
@@ -551,25 +598,25 @@
 	padding-bottom: 46px;
 }
 
-#pu125-4
+#pu320-4
 {
 	width: 0.01px;
-	left: 169px;
+	left: 152px;
 	position: relative;
 }
 
-#u125-4
+#u320-4
 {
-	z-index: 37;
+	z-index: 228;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 }
 
-#u132
+#u323
 {
-	z-index: 49;
+	z-index: 240;
 	width: 115px;
 	min-height: 25px;
 	border-style: none;
@@ -581,17 +628,17 @@
 	left: 626px;
 }
 
-#pu138
+#pu325
 {
 	width: 0.01px;
-	left: 310px;
+	left: 293px;
 	margin-top: 16px;
 	position: relative;
 }
 
-#u138
+#u325
 {
-	z-index: 50;
+	z-index: 241;
 	width: 210px;
 	min-height: 504px;
 	border-style: none;
@@ -601,9 +648,9 @@
 	margin-right: -10000px;
 }
 
-#u127-4
+#u322-4
 {
-	z-index: 45;
+	z-index: 236;
 	position: relative;
 	width: 499px;
 	margin-right: -10000px;
@@ -611,44 +658,43 @@
 	left: 477px;
 }
 
-#u86-4_img,#u91-4_img,#u92-4_img,#u95-4_img,#u93-4_img,#u127-4_img
+#u86-4_img,#u91-4_img,#u322-4_img
 {
 	display: block;
 	vertical-align: top;
 }
 
-#u126-4
+#u321-4
 {
-	z-index: 41;
+	z-index: 232;
 	display: block;
 	vertical-align: top;
-	left: 787px;
+	left: 770px;
 	top: -3px;
 	margin-bottom: -3px;
 	position: relative;
 }
 
-#u73-bw
+#u319-bw
 {
-	z-index: 7;
-	margin-top: 757px;
+	z-index: 227;
 	height: 700px;
 }
 
-#u140-4
+#u327-4
 {
-	z-index: 51;
+	z-index: 242;
 	display: block;
 	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 1112px;
-	left: 787px;
+	margin-top: 355px;
+	left: 770px;
 }
 
-#u160
+#u329
 {
-	z-index: 140;
+	z-index: 247;
 	width: 400px;
 	min-height: 85px;
 	border-style: none;
@@ -656,8 +702,8 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 812px;
-	left: 910px;
+	margin-top: 55px;
+	left: 893px;
 }
 
 body
