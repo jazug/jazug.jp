@@ -1,9 +1,9 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1417198173992">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1417847555162">
   <folder name="css">
-    <file name="site_global.css" crc="302815045"/>
-    <file name="index.css" crc="291824860" ref="index"/>
+    <file name="site_global.css" crc="288062803"/>
+    <file name="index.css" crc="409835963" ref="index"/>
     <file name="goazure.css" crc="3862894271" ref="goazure"/>
-    <file name="goazure-sessions.css" crc="331514222" ref="goazure-sessions"/>
+    <file name="goazure-sessions.css" crc="302283371" ref="goazure-sessions"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="4164521501" ref="index:goazure:goazure-sessions"/>
@@ -55,8 +55,8 @@
     <file name="u196-6_2x.png" crc="418429744" ref="goazure"/>
     <file name="u202-4.png" crc="474948083" ref="goazure"/>
     <file name="u202-4_2x.png" crc="236050566" ref="goazure"/>
-    <file name="u112-8.png" crc="3883207107" ref="index"/>
-    <file name="u112-8_2x.png" crc="3791460785" ref="index"/>
+    <file name="u112-8.png" crc="3861498129" ref="index"/>
+    <file name="u112-8_2x.png" crc="4287601025" ref="index"/>
     <file name="u308-4.png" crc="391017829" ref="index"/>
     <file name="u308-4_2x.png" crc="4036772302" ref="index"/>
     <file name="u311-6.png" crc="3791101509" ref="index"/>
@@ -75,8 +75,12 @@
     <file name="logonew1168x176_2x.png" crc="524837453" ref="goazure-sessions"/>
     <file name="u261-6.png" crc="4258572206" ref="goazure-sessions"/>
     <file name="u261-6_2x.png" crc="3969413455" ref="goazure-sessions"/>
+    <file name="u427_states.png" crc="3902028608" ref="index"/>
+    <file name="u427_states-r.png" crc="4157094404" ref="index"/>
+    <file name="u427_states_2x.png" crc="210515726" ref="index"/>
+    <file name="u427_states-r_2x.png" crc="3833949588" ref="index"/>
   </folder>
-  <file name="index.html" crc="4268412390" mt="1417198167718" redirect="true"/>
+  <file name="index.html" crc="478210652" mt="1417847546489" redirect="true"/>
   <file name="goazure.html" crc="141529689" mt="1415699214935" redirect="true"/>
-  <file name="goazure-sessions.html" crc="3823346176" mt="1417197808280" redirect="true"/>
+  <file name="goazure-sessions.html" crc="4731402" mt="1417846905957" redirect="true"/>
 </manifest>

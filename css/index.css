@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #000011;
-	background-color: #64E4DC;
+	color: #000018;
+	background-color: #6D99BB;
 }
 
 .html
@@ -106,11 +106,18 @@
 	margin-left: 210px;
 }
 
-#pu106
+#pevent
 {
 	width: 0.01px;
-	margin-left: 167px;
-	margin-top: 222px;
+	margin-top: 206px;
+}
+
+#event
+{
+	position: relative;
+	width: 22px;
+	margin-right: -10000px;
+	margin-top: 376px;
 }
 
 #u106
@@ -120,14 +127,17 @@
 	background-color: transparent;
 	position: relative;
 	margin-right: -10000px;
+	margin-top: 16px;
+	left: 167px;
 }
 
 #pu251-4
 {
 	width: 0.01px;
+	padding-bottom: 0px;
+	margin-bottom: -1px;
 	margin-right: -10000px;
-	margin-top: 62px;
-	margin-left: 522px;
+	margin-left: 639px;
 }
 
 #u251-4
@@ -143,7 +153,7 @@
 	color: #FFFFFF;
 	text-align: center;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
-	margin-left: 355px;
+	margin-left: 356px;
 	position: relative;
 }
 
@@ -157,15 +167,61 @@
 	z-index: 9;
 	display: block;
 	vertical-align: top;
+	margin-left: 1px;
 	top: -7px;
 	margin-bottom: -7px;
 	position: relative;
 }
 
-#event
+#u428-8
 {
-	margin-top: 47px;
+	z-index: 275;
+	width: 440px;
+	min-height: 108px;
+	background-color: transparent;
+	color: #29ABE2;
+	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+	margin-left: 1px;
+	margin-top: 18px;
 	position: relative;
+}
+
+#u428-2
+{
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: normal;
+}
+
+#u428-6
+{
+	font-size: 12px;
+	line-height: 21px;
+}
+
+#u427
+{
+	z-index: 273;
+	margin-top: 16px;
+	position: relative;
+	background: url("../images/u427_states.png") no-repeat 0px 0px;
+}
+
+#u427:hover #u427_states
+{
+	background: url("../images/u427_states-r.png") no-repeat 0px 0px;
+}
+
+.hidpi #u427
+{
+	background-image: url("../images/u427_states_2x.png");
+	background-size: 495px 92px;
+}
+
+.hidpi #u427:hover #u427_states
+{
+	background-image: url("../images/u427_states-r_2x.png");
+	background-size: 495px 92px;
 }
 
 #pu98
@@ -253,7 +309,7 @@
 	background: url("../images/u158_states.png") no-repeat 0px 0px;
 }
 
-#u158_states
+#u427_states,#u158_states
 {
 	height: 92px;
 	width: 495px;
@@ -559,7 +615,7 @@
 	line-height: 25px;
 }
 
-#u152-3,#u152-5,#u152-6,#u152-7,#u152-8,#u152-9,#u152-10,#u152-11,#u152-12,#u152-13,#u152-14,#u152-15,#u152-16,#u152-17,#u152-18,#u152-19,#u152-23,#u318-5,#u318-6,#u318-8,#u318-10,#u318-12,#u318-14,#u318-16
+#u428-4,#u152-3,#u152-5,#u152-6,#u152-7,#u152-8,#u152-9,#u152-10,#u152-11,#u152-12,#u152-13,#u152-14,#u152-15,#u152-16,#u152-17,#u152-18,#u152-19,#u152-23,#u318-5,#u318-6,#u318-8,#u318-10,#u318-12,#u318-14,#u318-16
 {
 	font-size: 18px;
 	line-height: 32px;
