@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/*-------------------------------------------
+Header
+-------------------------------------------*/
+
+header {
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:145px;
+	background-color:#222222;
+	z-index:10000;
+}
+header div {
+	position:relative;
+	width:1024px;
+	height:145px;
+	margin:0 auto;
+}
+
+header h1 {
+	position:absolute;
+	top:20px;
+	left:10px;
+	width:420px;
+	height:100px;
+}
+
+header ul {
+	position:absolute;
+	top:20px;
+	left:440px;
+	width:590px;
+	height:26px;
+}
+
+header ul li {
+	height:26px;
+	display:inline;
+	padding-right:20px;
+}
+
+header p {
+	position:absolute;
+	top:63px;
+	left:440px;
+	width:552px;
+	height:57px;
+}
+
+
+/*-------------------------------------------
+contents
+-------------------------------------------*/
+div#contents{
+	padding-top:145px;
+	width:1024px;
+	height:auto;
+	margin:0 auto;
+}
+
+/*-------------------------------------------
+Intro
+-------------------------------------------*/
+#sIntro{
+	padding:46px 0 30px 0;
+}
+
+#sIntro .rCon{
+	float:right;
+	width:714px;
+}
+#sIntro .lCon{
+	float:left;
+	width:270px;
+}
+
+/* lCon inner */
+#sIntro .lCon p{
+	margin:40px 0 20px 40px;
+}
+
+
+/* rCon inner */
+#sIntro .rCon h2{
+	font-size:18px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+#sIntro .rCon p{
+	width:690px;
+}
+#sIntro .rCon p a{
+	text-decoration:underline;
+}
+
+#sIntro .rCon dl{
+	position:relative;
+	width:685px;
+	height:118px;
+	display:block;
+	margin-top:12px;
+	background-color:#f0f0f0;
+}
+
+#sIntro .rCon dl dt,
+#sIntro .rCon dl dd{
+	position:absolute;
+}
+
+#sIntro .rCon dl dt{
+	color:#FFFFFF;
+	text-align:center;
+	display:block;
+	width:72px;
+	height:24px;
+	background-color:#333333;
+}
+
+#sIntro .rCon dl dd{
+	width:530px;
+}
+#sIntro .rCon dl dd strong{
+	font-weight:bold;
+}
+
+#sIntro .rCon dl dt.lab01{ 	top:20px;	left:20px; }
+#sIntro .rCon dl dt.lab02{ 	top:73px;	left:20px; }
+#sIntro .rCon dl dd.txt01{ 	top:20px;	left:100px; }
+#sIntro .rCon dl dd.txt02{ 	top:73px;	left:100px; }
+
+/*-------------------------------------------
+Program
+-------------------------------------------*/
+
+#sProgram{
+	padding:30px 0 30px 30px;
+	background-color:#0072c6;
+}
+
+#sProgram h2{
+	margin-bottom:20px;
+}
+
+#sProgram p{
+	color:#FFFFFF;
+	padding-right:20px;
+}
+
+table th,
+table td {
+	line-height:1.2;
+	font-weight:normal;
+	padding:10px;
+}
+
+table {
+	width:962px;
+	margin:10px 0 0 0;
+	border-top:2px solid #CCC;
+	border-left:2px solid #CCC;
+	border-spacing:0px;
+}
+table thead th {
+	background-color:#222222;
+	color:#FFFFFF;
+	border-bottom:2px solid #CCC;
+	border-right:2px solid #CCC;
+}
+table tbody th {
+	color:#333333;
+	margin:0;
+	line-height:1;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#F0F0F0;
+	border-bottom:2px solid #CCC;
+	border-right:2px solid #CCC;
+}
+table  tbody td {
+	background-color:#FFFFFF;
+	color:#333333;
+	border-bottom:2px solid #CCC;
+	border-right:2px solid #CCC;
+}
+table  tbody td.blank {
+	background:url(../img/bg_stripe.png) 0 0 repeat;
+}
+table tbody td a {
+	color:#0072c6;
+	display:block;
+	width:100%;
+	height:100%;
+	text-decoration:underline;
+	background:#FFFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
+}
+table tbody td a:hover {
+	background:#CCFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
+}
+table tbody td a span {
+	padding-left:20px;
+	background:transparent url(../img/arr_btm.gif) 0px 2px no-repeat;
+}
+
+table tbody td.vMid {
+	vertical-align:middle;
+}
+
+.clicklink {
+	cursor: pointer;
+	color: #1CA8DD;
+	text-decoration:underline;
+	background:#FFFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
+}
+.clicklink span {
+	padding-left:20px;
+	background:transparent url(../img/arr_btm.png) 0 0 no-repeat;
+}
+
+.clicklink:hover {
+	text-decoration:none;
+	background:#e5f1f9 url(../img/bg_cloud_on.gif) 100% 100% no-repeat;
+}
+
+
+/*-------------------------------------------
+Session
+-------------------------------------------*/
+
+#sSession{
+	padding:30px 0 0px 30px;
+	background-color:#00a3e9;
+}
+
+#sSession h2{
+	margin-bottom:20px;
+}
+
+#sSession h3{
+	width:964px;
+	height:36px;
+	display:block;
+	padding-top:4px;
+	font-size:20px;
+	color:#FFFFFF;
+	background-color:#222222;
+	border-bottom:#FFFFFF 20px solid;
+}
+
+#sSession h3 span{
+	padding:0 0 0 40px;
+	background:url(../img/stit.gif) 20px 4px no-repeat;
+}
+
+#sSession .clear{
+	width:964px;
+	background:#FFFFFF url(../img/bg_cloud2.gif) 100% 100% no-repeat;
+}
+#sSession .clear p{
+	padding-bottom:20px;
+}
+#sSession .lCon{
+	float:left;
+	width:300px;
+	padding-left:20px;
+}
+#sSession .rCon{
+	float:right;
+	width:590px;
+	padding:0 20px 0 20px;
+}
+
+
+#sSession dl {
+	padding-bottom:5px;
+}
+#sSession dt {
+	color:#0072c6;
+	font-size:18px;
+	padding-left:20px;
+	background:transparent url(../img/circle.gif) 0px 5px no-repeat;
+}
+#sSession dd {
+	padding-bottom:10px;
+}
+
+#sSession dl.sinCon {
+	width:924px;
+	padding:0 20px 0 20px;
+	padding-bottom:5px;
+	background:#FFFFFF url(../img/bg_cloud3.gif) 100% 100% no-repeat;
+}
+
+
+
+p.pTOP {
+	text-align:right;
+	margin-right:30px;
+	padding:15px 0 20px 0;
+}
+
+/*-------------------------------------------
+Sponsor
+-------------------------------------------*/
+#sSponsor{
+	padding:30px 0 30px 20px;
+}
+
+#sSponsor p{
+	width:1024px;
+	text-align:center;
+	padding:30px 0;
+}
+
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+
+
+footer {
+	font-size:14px;
+	color:#FFFFFF;
+	text-align:center;
+	padding:6px;
+	background-color:#222222;}
+
+
+
+
+
+
+
+
