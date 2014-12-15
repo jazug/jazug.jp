@@ -50,6 +50,11 @@ header p {
 	height:57px;
 }
 
+header ul li a {
+padding-top:145px;
+margin-top:-145px;
+}
+
 
 /*-------------------------------------------
 contents
@@ -68,6 +73,7 @@ Intro
 	padding:46px 0 30px 0;
 }
 
+
 #sIntro .rCon{
 	float:right;
 	width:714px;
@@ -75,6 +81,9 @@ Intro
 #sIntro .lCon{
 	float:left;
 	width:270px;
+}
+#sIntro .lCon li{
+	margin-left:30px;
 }
 
 /* lCon inner */
@@ -103,6 +112,7 @@ Intro
 	height:118px;
 	display:block;
 	margin-top:12px;
+	margin-bottom:20px;
 	background-color:#f0f0f0;
 }
 
@@ -131,6 +141,11 @@ Intro
 #sIntro .rCon dl dt.lab02{ 	top:73px;	left:20px; }
 #sIntro .rCon dl dd.txt01{ 	top:20px;	left:100px; }
 #sIntro .rCon dl dd.txt02{ 	top:73px;	left:100px; }
+
+#sIntro p#ann{
+	margin:0 0 0 30px;
+	padding-top:30px;
+}
 
 /*-------------------------------------------
 Program
@@ -309,12 +324,26 @@ Sponsor
 	padding:30px 0 30px 20px;
 }
 
-#sSponsor p{
+/*#sSponsor p{
 	width:1024px;
 	text-align:center;
 	padding:30px 0;
+}*/
+
+#sSponsor ul {
+	text-align:center;
+	padding-bottom:10px;
+	margin-left:200px;
+	vertical-align:top;
 }
 
+#sSponsor ul li{
+	float:left;
+	margin:0 100px 0 0;
+}
+
+#sSponsor ul li a{
+}
 
 /*-------------------------------------------
 footer
