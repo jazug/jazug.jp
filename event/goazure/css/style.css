@@ -41,6 +41,9 @@ header ul li {
 	display:inline;
 	padding-right:20px;
 }
+header ul li.end {
+	padding-right:0px;
+}
 
 header p {
 	position:absolute;
@@ -50,10 +53,6 @@ header p {
 	height:57px;
 }
 
-header ul li a {
-padding-top:145px;
-margin-top:-145px;
-}
 
 
 /*-------------------------------------------
@@ -61,6 +60,7 @@ contents
 -------------------------------------------*/
 div#contents{
 	padding-top:145px;
+	margin-top:-145px;
 	width:1024px;
 	height:auto;
 	margin:0 auto;
@@ -309,6 +309,13 @@ Session
 	background:#FFFFFF url(../img/bg_cloud3.gif) 100% 100% no-repeat;
 }
 
+#sSession #sec11,#sSession #sec12,#sSession #sec13,#sSession #sec14,#sSession #sec15,
+#sSession #sec21,#sSession #sec22,#sSession #sec23,#sSession #sec24,#sSession #sec25,
+#sSession #sec31,#sSession #sec32,#sSession #sec33,#sSession #sec34,#sSession #sec35{
+padding-top:145px;
+margin-top:-145px;
+display:block;
+}
 
 
 p.pTOP {
