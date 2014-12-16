@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/*-------------------------------------------
+Base Setting
+-------------------------------------------*/
+body,
+select,
+input,
+textarea { font-size:16px; font-family:'Meiryo','メイリオ','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Verdana,'ＭＳ Ｐゴシック',sans-serif; line-height:1.6; -webkit-text-size-adjust: none; color:#333333; }
+a { color:#202020; text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,255,0.2)!important; }
+a:hover{ color: #20201D; text-decoration:underline; }
+a:active{ text-decoration:none; }
+a:link{ -webkit-tap-highlight-color:#202020; }
+
+ol { list-style: none; }
+strong { font-weight: normal; }
+em { font-style: normal; }
+/*clearfix*/
+.clear:before,
+.clear:after { content:"";	display:table; }
+.clear:after { clear:both; }
+.clear { zoom:1; }
+
+img { max-width: 100%; }
+body {}
+
+/*-------------------------------------------
+
+
+
