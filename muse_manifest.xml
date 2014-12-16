@@ -1,7 +1,7 @@
-<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1417847555162">
+<manifest alg="2" build="10" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1418709513358">
   <folder name="css">
-    <file name="site_global.css" crc="288062803"/>
-    <file name="index.css" crc="409835963" ref="index"/>
+    <file name="site_global.css" crc="302815045"/>
+    <file name="index.css" crc="4174085428" ref="index"/>
     <file name="goazure.css" crc="3862894271" ref="goazure"/>
     <file name="goazure-sessions.css" crc="302283371" ref="goazure-sessions"/>
   </folder>
@@ -11,7 +11,6 @@
     <file name="jquery.watch.js" crc="4144919381" ref="index:goazure:goazure-sessions"/>
     <file name="jquery.musepolyfill.bgsize.js" crc="4259541792" ref="goazure"/>
     <file name="jquery.scrolleffects.js" crc="117544926" ref="goazure"/>
-    <file name="pie.js" crc="3827607177" ref="index"/>
   </folder>
   <folder name="images">
     <file name="jazcat-icon.png" crc="4006438227" ref="index:goazure:goazure-sessions"/>
@@ -30,10 +29,10 @@
     <file name="u113-4.png" crc="3787825051" ref="index"/>
     <file name="u113-4_2x.png" crc="528093973" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:goazure"/>
-    <file name="u158_states.png" crc="15457145" ref="index"/>
-    <file name="u158_states-r.png" crc="210949160" ref="index"/>
-    <file name="u158_states_2x.png" crc="3834456425" ref="index"/>
-    <file name="u158_states-r_2x.png" crc="116687994" ref="index"/>
+    <file name="u158_states.png" crc="4280805342" ref="index"/>
+    <file name="u158_states-r.png" crc="497185023" ref="index"/>
+    <file name="u158_states_2x.png" crc="499923603" ref="index"/>
+    <file name="u158_states-r_2x.png" crc="3871658761" ref="index"/>
     <file name="goazure.jpg" crc="250477049" ref="goazure"/>
     <file name="logonew1.png" crc="151321349" ref="goazure"/>
     <file name="logonew1_2x.png" crc="373760883" ref="goazure"/>
@@ -75,12 +74,12 @@
     <file name="logonew1168x176_2x.png" crc="524837453" ref="goazure-sessions"/>
     <file name="u261-6.png" crc="4258572206" ref="goazure-sessions"/>
     <file name="u261-6_2x.png" crc="3969413455" ref="goazure-sessions"/>
-    <file name="u427_states.png" crc="3902028608" ref="index"/>
-    <file name="u427_states-r.png" crc="4157094404" ref="index"/>
-    <file name="u427_states_2x.png" crc="210515726" ref="index"/>
-    <file name="u427_states-r_2x.png" crc="3833949588" ref="index"/>
+    <file name="u427_states.png" crc="3984467648" ref="index"/>
+    <file name="u427_states-r.png" crc="170952032" ref="index"/>
+    <file name="u427_states_2x.png" crc="231971123" ref="index"/>
+    <file name="u427_states-r_2x.png" crc="3871677516" ref="index"/>
   </folder>
-  <file name="index.html" crc="478210652" mt="1417847546489" redirect="true"/>
+  <file name="index.html" crc="438543834" mt="1418709505209" redirect="true"/>
   <file name="goazure.html" crc="141529689" mt="1415699214935" redirect="true"/>
   <file name="goazure-sessions.html" crc="4731402" mt="1417846905957" redirect="true"/>
 </manifest>
