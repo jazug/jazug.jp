@@ -339,17 +339,23 @@ Sponsor
 
 #sSponsor ul {
 	text-align:center;
-	padding:20px 0 60px 0;
+	padding:0 0 20px 0;
+	margin-top:10px;
 	vertical-align:top;
 }
 
 #sSponsor ul li{
 	float:left;
 	margin:0 80px 0 0;
+	padding:10px 0;
 }
 
 #sSponsor ul li.end{
 	margin:0 0 0 0;
+}
+
+#sSponsor ul li.center{
+	padding-left:190px;
 }
 
 
