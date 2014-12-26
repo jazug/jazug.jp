@@ -369,28 +369,46 @@ Sponsor
 	text-align:center;
 	padding:30px 0;
 }*/
+#sSponsor .sCon {
+	margin:10px 0 0 0;
+	border-top:1px solid #CCCCCC;
+}
+#sSponsor h3 {
+	font-weight:bold;
+	font-size:1.2em;
+	line-height:1.0em;
+	margin:20px 0 10px 0;
+	padding:0px 15px 0 13px;
+	border-left:7px solid #00A3E9;
+}
+#sSponsor p {
+	margin:30px 0 50px 20px;
+}
 
 #sSponsor ul {
-	text-align:center;
+	/*text-align:center;
 	padding:0 0 20px 0;
-	margin-top:10px;
+	margin-top:10px;*/
 	vertical-align:top;
 }
 
 #sSponsor ul li{
 	float:left;
 	margin:0 80px 0 0;
-	padding:10px 0;
+	/*padding:10px 0;*/
 }
 
 #sSponsor ul li.end{
-	margin:0 0 0 0;
+	margin:0 100px 0 0;
 }
-
 #sSponsor ul li.center{
 	padding-left:190px;
 }
-
+#sSponsor ul li.space{
+	float:left;
+	margin:0 20px 0 0;
+	padding:10px 0;
+}
 
 #sSponsor ul li a{
 }
