@@ -317,6 +317,9 @@ Session
 	padding:0 20px 0 20px;
 }
 
+#sSession .rCon a{
+	text-decoration:underline;
+}
 
 #sSession dl {
 	padding-bottom:5px;
