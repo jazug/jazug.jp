@@ -147,6 +147,35 @@ Intro
 	padding-top:30px;
 }
 
+
+
+/*-------------------------------------------
+Whats New
+-------------------------------------------*/
+
+#whatsnew{
+	border: solid 1px #ccd5cc;
+    width: 934px;
+    padding: 15px;
+    margin: 0 auto 30px;
+}
+
+#whatsnew img {
+	margin-bottom:  15px;
+}
+
+#whatsnew ul {
+    list-style-image: url(../img/bullet_bl.gif);
+    margin-left:  20px;
+}
+
+#whatsnew ul a {
+	color:#1ca8dd;
+	display:block;
+	text-decoration:underline;
+}
+
+
 /*-------------------------------------------
 Program
 -------------------------------------------*/
