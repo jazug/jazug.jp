@@ -249,6 +249,25 @@ table tbody td a span {
 	background:transparent url(../img/arr_btm.gif) 0px 2px no-repeat;
 }
 
+table tbody td.business {
+	color:#000;
+ }
+table tbody td.business p {
+	font-size: 13px;
+    color:  #000!important;
+    margin-top:  10px;
+    width:100%;
+	height:100%;
+ }
+table tbody td.business p a {
+	color:#0072c6;
+	background-image:  none;
+ }
+table tbody td.business a:hover {
+	background-color: #CCFFFF;
+	background-image:  none;
+ }
+
 table tbody td.vMid {
 	vertical-align:middle;
 }
