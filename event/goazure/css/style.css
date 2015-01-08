@@ -248,6 +248,11 @@ table tbody td a span {
 	padding-left:20px;
 	background:transparent url(../img/arr_btm.gif) 0px 2px no-repeat;
 }
+table tbody td .nowrap {
+	white-space: nowrap;
+	background:none;
+	padding:0;
+}
 
 table tbody td.business {
 	color:#000;
