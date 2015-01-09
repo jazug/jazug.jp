@@ -170,7 +170,19 @@ Infrastructure as Code for Azure</span></td>
 Azure Websites で作るスケーラブルな PHP アプリケーション</span></td>
 <td data-href="#sec32"><span>Session 3-2<br>
 アプリケーション開発者のためのAzure Active Directory - 認証とユーザー情報管理まで -</span></td>
-<td rowspan="4" data-href="#Hackfest"><span>HackFest</span></td>
+<td rowspan="4" data-href="#Hackfest" class="HackFest"><span>HackFest</span><br>
+	<dl>
+    	<dt>アンカンファレンス</dt>
+        <dd class="spacer">Hanselman, 池澤あやか 他</dd>
+        <dt>ワークショップ</dt>
+        <dd>
+        	<ul>
+            	<li>電話・SMS API Twilio</li>
+                <li>SendGridとAzureでお手軽メール送信</li>
+            </ul>
+        </dd>
+    </dl>
+</td>
 <td class="business">for Business セッション (2)<p>※参加登録はこちら: <a href="http://www.microsoft.com/ja-jp/server-cloud/azure/event/goazure2015/session.aspx" target="_blank" title="for Business 基調講演およびセッション スケジュール (Microsoftのサイトへ移動します)">for Business 詳細/登録サイト</a></p></td>
 </tr>
 
@@ -619,11 +631,47 @@ Mono project hacker<br>
 
 <a name="Hackfest" id="Hackfest"></a>
 <h3><span>HackFest</span></h3>
-<dl class="sinCon">
-<!--dt>Hackfest</dt-->
-<dd>GoAzure のもう一つの楽しみ方、それはHackFest。一人でもグループでも参加OK、AzureやVisual Studioはもちろん、様々なOSSを使って何か一つアプリやサービスを作り上げてみませんか？Scott Hanselmanや池澤あやかさんもHackfestに参加予定！<br>
-プログラミングで悩んだら、その場で質問しちゃおう。ミニセッションも見られるかも！？ 詳細が決まり次第アップデートします。お楽しみに。</dd>
-</dl>
+<div class="sinCon_Hackfest">
+    <p>GoAzure のもう一つの楽しみ方、それはHackFest。一人でもグループでも参加OK、アンカンファレンスではScottや池澤あやかさんにその場で質問しちゃおう。AzureやVisual Studioはもちろん、OSSを使ったアプリの開発や便利なサービスをお試しできるワークショップも開催、ご自分のマシンを持ち込んでいただいて楽しめます。セッションに疲れたとき、マシンやデバイスの充電が必要になったときも、ぜひ覗きに来てください！</p>
+    <h4>アンカンファレンス</h4>
+    <p>Scott Hanselmanや池澤あやかさんのミニセッションなど、参加型プログラムをご用意。セッションのスピーカーやマイクロソフトのエバンジェリストも飛び入り参加?! 詳細はまだまだヒミツ★お楽しみに！</p>
+    <h4>ワークショップ</h4>
+    <div class="event_box">
+        <h5>電話・SMS API Twilio ハンズオン</h5>
+        <div class="clear">
+            <div class="lCon">
+                <dl>
+                    <dt>スピーカー</dt>
+                    <dd>Twilio for KDDI Web Communication <br>デベロッパーエバンジェリスト<br>宋 珠憲</dd>
+                </dl>
+            </div>
+            <div class="rCon">
+                <dl>
+                <dt>概要</dt>
+                <dd>Twilioは、みなさんのサービスやシステムをアプリ・ハードウェア関係なく、たった数行のコードで電話とお繋ぎ致します。今回、Azureの「Visual Studio Online」上で6行ぐらいのコードを作成し、電話による「メッセージ再生、録音、音声ファイルの再生」をみなさんと試してみたいと思います。両サービスの驚きのシンプルさを皆様にお伝え致します。</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="event_box">
+        <h5>SendGridとAzureでお手軽メール送信 ワークショップ</h5>
+        <div class="clear">
+            <div class="lCon">
+                <dl>
+                    <dt>スピーカー</dt>
+                    <dd>株式会社構造計画研究所 SendGrid<br>エバンジェリスト<br>中井勘介</dd>
+                </dl>
+            </div>
+            <div class="rCon">
+                <dl>
+                <dt>概要</dt>
+                <dd>いつも厄介なメール送信。Azureから送信する場合は、わざわざメールサーバを準備しなくてもSendGridだけで簡単に実現可能です。本ワークショップでは、SendGridが用意している豊富なAPIを使い、Azure Webサイト、Visual Studio Onlineから実際にメールを送信します。月間130億通以上の配信実績を誇るSendGridのサービスを体感してみましょう。</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
 <p class="pTOP"><a href="#pageTOP" class="scroll"><img src="img/btn_pagetop.gif" width="141" height="18" alt="ページトップへ戻る" class="rollover"></a></p>
 
 <a name="spn01" id="spn01"></a>
@@ -704,7 +752,8 @@ Mono project hacker<br>
         <li class="space2"><a href="http://www.lpi.or.jp/" target="_blank"><img src="img/logo_LPI-Japan_s.gif" alt="LPI-Japan" width="195" height="90"></a></li>
         <li class="space2"><a href="http://www.php.gr.jp/" target="_blank"><img src="img/logo_php_s.gif" alt="日本 PHP ユーザ会 (Japan PHP Users Group)" width="310" height="90"></a></li>  
         <li class="space2"><a href="http://twilio.kddi-web.com/" target="_blank"><img src="img/logo_twilio.png" alt="Twilio (株式会社 KDDI ウェブコミュニケーションズ)" width="220" height="90"></a></li>  
-        <li class="space2"><a href="https://sendgrid.kke.co.jp" target="_blank"><img src="img/logo_sendgrid.png" alt="SendGrid" width="240" height="90"></a></li>  
+        <li class="space2"><a href="https://sendgrid.kke.co.jp" target="_blank"><img src="img/logo_sendgrid.png" alt="SendGrid" width="240" height="90"></a></li>
+        <li class="space2"><a href="http://www.android-group.jp/" target="_blank"><img src="img/logo_android-group_s.gif" alt="日本Androidの会（日本アンドロイドの会）" width="136" height="90"></a></li>  
    </ul>
 </div>
 </section>

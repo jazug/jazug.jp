@@ -276,7 +276,32 @@ table tbody td.business a:hover {
 table tbody td.vMid {
 	vertical-align:middle;
 }
-
+table .HackFest {
+	text-decoration:none;
+}
+table .HackFest span {
+	text-decoration:underline;
+}
+table .HackFest dt {
+	background:transparent url(../img/bullet_bl.gif) 0px 11px no-repeat;
+	padding:15px 0 3px 10px;
+	font-weight:bold;
+	color:#1CA8DD;
+	font-size:0.8em;
+	text-decoration:underline;
+}
+table .HackFest dd {
+	font-size:0.8em;
+	line-height:1.6em;
+	color:#000000;
+}
+table .HackFest dd li {
+	background:transparent url(../img/bullettriangle.png) 0px 6px no-repeat;
+	padding:0 0 0 10px;
+}
+table .HackFest .spacer {
+	padding-left:10px;
+}	
 .clicklink {
 	cursor: pointer;
 	color: #1CA8DD;
@@ -379,6 +404,77 @@ p.pTOP {
 	text-align:right;
 	margin-right:30px;
 	padding:15px 0 20px 0;
+}
+
+#sSession .sinCon_Hackfest {
+	clear:both;
+	width:924px;
+	padding:0 20px 0 20px;
+	padding-bottom:5px;
+	background:#FFFFFF url(../img/bg_cloud3.gif) 100% 100% no-repeat;
+}
+#sSession .sinCon_Hackfest p {
+	padding:0 15px 20px 15px;
+}
+#sSession .sinCon_Hackfest h4 {
+	padding:2px 15px;
+	background:#e5f6fd;
+	color:#0072c6;
+	font-weight:bold;
+	font-size:1.2em;
+	margin:0 0 15px 0;
+}
+#sSession .sinCon_Hackfest .event_box h5 {
+	color:#0072c6;
+	font-size:1.1em;
+	line-height:1.2em;
+	border-left:8px solid #0055cc;
+	padding:0 0 0 10px;
+	margin:19px 14px 14px 14px;
+}
+#sSession .sinCon_Hackfest .event_box {
+	width:922px;
+	border:1px solid #cccccc;
+	background:none;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+#sSession .sinCon_Hackfest .event_box .clear{
+	background:none;
+}
+#sSession .sinCon_Hackfest .event_box .lCon{
+	float:left;
+	width:265px;
+	padding:0 20px;
+}
+#sSession .sinCon_Hackfest .event_box .rCon{
+	float:left;
+	width:577px;
+	padding:0 20px 0 19px;
+	border-left:1px solid #cccccc;
+}
+
+#sSession .sinCon_Hackfest .event_box .rCon a{
+	text-decoration:underline;
+}
+
+#sSession .sinCon_Hackfest .event_box dl {
+	padding-bottom:5px;
+}
+#sSession .sinCon_Hackfest .event_box dt {
+	color:#0072c6;
+	font-size:18px;
+	padding-left:20px;
+	background:transparent url(../img/circle.gif) 0px 5px no-repeat;
+}
+#sSession .sinCon_Hackfest .event_box dd {
+	padding-bottom:5px;
+}
+#sSession .sinCon_Hackfest .event_box dl.sinCon {
+	width:924px;
+	padding:0 20px 0 20px;
+	padding-bottom:5px;
+	background:none;
 }
 
 /*-------------------------------------------
