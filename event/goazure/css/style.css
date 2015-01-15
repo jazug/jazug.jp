@@ -184,23 +184,54 @@ Program
 	padding:30px 0 30px 30px;
 	background-color:#0072c6;
 }
-
 #sProgram h2{
 	margin-bottom:20px;
+	float:  left;
 }
-
-#sProgram p{
-	color:#FFFFFF;
-	padding-right:20px;
+#sProgram .pdf_dl{
+         color:#FFFFFF;
+         padding-right:40px;
+          float:  right;
 }
-
-table th,
-table td {
-	line-height:1.2;
+#sProgram div.clear{
+         clear: both;
+}
+table {
+	font-size:0.8em;
+}
+table .time {
+	width:50px;
+	text-align:center;
+	padding:3px 0;
 	font-weight:normal;
-	padding:10px;
+	vertical-align:middle;
 }
-
+table .KeyNote {
+	padding:3px;
+}
+table .room-HP {
+	width:256px;
+	padding:3px;
+}
+table .RoomA,
+table .RoomB,
+table .RoomC,
+table .RoomD {
+	width:124px;
+	padding:3px;
+}
+table .hands-on {
+	width:108px;
+	padding:3px;
+	vertical-align:middle;
+}
+table td {
+	font-weight:normal;
+	padding:3px;
+}
+table td.Hackfest_border {
+	border-right:2px dotted #CCC;
+}
 table {
 	width:962px;
 	margin:10px 0 0 0;
@@ -213,6 +244,8 @@ table thead th {
 	color:#FFFFFF;
 	border-bottom:2px solid #CCC;
 	border-right:2px solid #CCC;
+	vertical-align:middle;
+	font-weight:normal;
 }
 table tbody th {
 	color:#333333;
@@ -223,6 +256,7 @@ table tbody th {
 	background-color:#F0F0F0;
 	border-bottom:2px solid #CCC;
 	border-right:2px solid #CCC;
+	font-weight:normal;
 }
 table  tbody td {
 	background-color:#FFFFFF;
@@ -234,88 +268,57 @@ table  tbody td.blank {
 	background:url(../img/bg_stripe.png) 0 0 repeat;
 }
 table tbody td a {
-	color:#0072c6;
 	display:block;
 	width:100%;
 	height:100%;
-	text-decoration:underline;
-	background:#FFFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
-}
-table tbody td a:hover {
-	background:#CCFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
 }
 table tbody td a span {
 	padding-left:20px;
-	background:transparent url(../img/arr_btm.gif) 0px 2px no-repeat;
 }
-table tbody td .nowrap {
-	white-space: nowrap;
-	background:none;
-	padding:0;
-}
-
-table tbody td.business {
-	color:#000;
- }
-table tbody td.business p {
-	font-size: 13px;
-    color:  #000!important;
-    margin-top:  10px;
-    width:100%;
-	height:100%;
- }
-table tbody td.business p a {
-	color: #0072c6;
-	background-image: none;
- }
-table tbody td.business a:hover {
-	background-color: #CCFFFF;
-	background-image:  none;
- }
-
-table tbody td.vMid {
-	vertical-align:middle;
-}
-table .HackFest {
-	text-decoration:none;
-}
-table .HackFest span {
-	text-decoration:underline;
-}
-table .HackFest dt {
-	background:transparent url(../img/bullet_bl.gif) 0px 11px no-repeat;
-	padding:15px 0 3px 10px;
+table tbody td .Session_ttl {
 	font-weight:bold;
-	color:#1CA8DD;
-	font-size:0.8em;
-	text-decoration:underline;
+	padding:0 0 10px 0;
 }
-table .HackFest dd {
-	font-size:0.8em;
-	line-height:1.6em;
-	color:#000000;
+table tbody td .Session_sub {
+	padding:10px 0 0 0;
 }
-table .HackFest dd li {
-	background:transparent url(../img/bullettriangle.png) 0px 6px no-repeat;
-	padding:0 0 0 10px;
-}
-table .HackFest .spacer {
-	padding-left:10px;
-}	
-.clicklink {
-	cursor: pointer;
+table tbody td .Session_sub a {
 	color: #1CA8DD;
 	text-decoration:underline;
-	background:#FFFFFF url(../img/bg_cloud.gif) 100% 100% no-repeat;
+}
+
+table .Hackfest_sub dt {
+	padding:5px 0;
+	font-weight:bold;
+}
+table .Hackfest_sub dd li {
+	background:transparent url(../img/bullettriangle.png) 0px 6px no-repeat;
+	padding:0 0 5px 10px;
+}
+
+table .party dt {
+	padding:10px 0 5px 0;
+	font-weight:bold;
+}
+table .party dd {
+	padding:0 0 10px 0;
+}
+	
+.clicklink {
+	cursor: pointer;
+	text-decoration:none;
 }
 .clicklink span {
+	color: #1CA8DD;
+	text-decoration:underline;
 	padding-left:20px;
 	background:transparent url(../img/arr_btm.png) 0 0 no-repeat;
+	font-weight:bold;
 }
 
 .clicklink:hover {
+	background:#e5f1f9;
 	text-decoration:none;
-	background:#e5f1f9 url(../img/bg_cloud_on.gif) 100% 100% no-repeat;
 }
 
 
