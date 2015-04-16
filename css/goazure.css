@@ -1,7 +1,7 @@
 .version.goazure /* version checker */
 {
-	color: #0000E6;
-	background-color: #3F16BF;
+	color: #0000EB;
+	background-color: #3C10D6;
 }
 
 .html
@@ -22,9 +22,15 @@
 	margin-right: auto;
 }
 
+#page_position_content
+{
+	width: 0.01px;
+}
+
 #u218
 {
 	z-index: 2;
+	min-height: 1150px;
 	border-style: none;
 	border-color: transparent;
 	background: #0071BC url("../images/goazure.jpg") no-repeat center center;
@@ -73,8 +79,8 @@
 	width: 446px;
 	min-height: 261px;
 	background-color: transparent;
-	color: #FFFFFF;
 	text-align: center;
+	color: #FFFFFF;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	left: 507px;
 	margin-top: 44px;
@@ -90,7 +96,7 @@
 #u218-bw
 {
 	z-index: 2;
-	height: 1150px;
+	min-height: 1150px;
 }
 
 #u245
@@ -101,7 +107,6 @@
 	margin-right: -10000px;
 	margin-top: 1019px;
 	left: 482px;
-	background: url("../images/u245_states.png") no-repeat 0px 0px;
 }
 
 #u245_states
@@ -109,6 +114,7 @@
 	height: 92px;
 	width: 495px;
 	vertical-align: top;
+	background: url("../images/u245_states.png") no-repeat 0px 0px;
 }
 
 #u245:hover #u245_states
@@ -116,16 +122,11 @@
 	background: url("../images/u245_states-r.png") no-repeat 0px 0px;
 }
 
-.hidpi #u245
-{
-	background-image: url("../images/u245_states_2x.png");
-	background-size: 495px 92.00000000000011px;
-}
-
 .hidpi #u245:hover #u245_states
 {
+	background-image: url("../images/u245_states_2x.png");
 	background-image: url("../images/u245_states-r_2x.png");
-	background-size: 495px 92.00000000000011px;
+	background-size: 495px 92px;
 }
 
 #u211
@@ -148,6 +149,7 @@
 #u186
 {
 	z-index: 3;
+	min-height: 472px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FFFFFF;
@@ -168,13 +170,14 @@
 #u186-bw
 {
 	z-index: 3;
+	min-height: 472px;
 	margin-top: 464px;
-	height: 472px;
 }
 
 #u181
 {
 	z-index: 4;
+	min-height: 640px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #222222;
@@ -256,13 +259,14 @@
 #u181-bw
 {
 	z-index: 4;
+	min-height: 640px;
 	margin-top: 1221px;
-	height: 640px;
 }
 
 #u177
 {
 	z-index: 5;
+	min-height: 647px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #3B5998;
@@ -358,7 +362,7 @@
 #u177-bw
 {
 	z-index: 5;
-	height: 647px;
+	min-height: 647px;
 }
 
 #u202-4

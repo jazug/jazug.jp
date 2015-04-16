@@ -1,7 +1,7 @@
 .version.goazure_sessions /* version checker */
 {
-	color: #000012;
-	background-color: #047A6B;
+	color: #00001D;
+	background-color: #5F73CC;
 }
 
 .html
@@ -26,6 +26,7 @@
 #page_position_content
 {
 	padding-bottom: 70px;
+	width: 0.01px;
 }
 
 #u277
@@ -103,6 +104,7 @@
 #u387
 {
 	z-index: 10;
+	min-height: 180px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -141,13 +143,14 @@
 #u387-bw
 {
 	z-index: 10;
+	min-height: 180px;
 	margin-top: 65px;
-	height: 180px;
 }
 
 #u391
 {
 	z-index: 23;
+	min-height: 180px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FAFAFA;
@@ -186,12 +189,13 @@
 #u391-bw
 {
 	z-index: 23;
-	height: 180px;
+	min-height: 180px;
 }
 
 #u394
 {
 	z-index: 32;
+	min-height: 149px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -230,12 +234,13 @@
 #u394-bw
 {
 	z-index: 32;
-	height: 149px;
+	min-height: 149px;
 }
 
 #u397
 {
 	z-index: 41;
+	min-height: 144px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FAFAFA;
@@ -274,12 +279,13 @@
 #u397-bw
 {
 	z-index: 41;
-	height: 144px;
+	min-height: 144px;
 }
 
 #u400
 {
 	z-index: 50;
+	min-height: 149px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -318,12 +324,13 @@
 #u400-bw
 {
 	z-index: 50;
-	height: 149px;
+	min-height: 149px;
 }
 
 #u403
 {
 	z-index: 59;
+	min-height: 148px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FAFAFA;
@@ -362,12 +369,13 @@
 #u403-bw
 {
 	z-index: 59;
-	height: 148px;
+	min-height: 148px;
 }
 
 #u406
 {
 	z-index: 68;
+	min-height: 180px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -406,12 +414,13 @@
 #u406-bw
 {
 	z-index: 68;
-	height: 180px;
+	min-height: 180px;
 }
 
 #u409
 {
 	z-index: 77;
+	min-height: 117px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FAFAFA;
@@ -450,12 +459,13 @@
 #u409-bw
 {
 	z-index: 77;
-	height: 117px;
+	min-height: 117px;
 }
 
 #u412
 {
 	z-index: 86;
+	min-height: 180px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -494,12 +504,13 @@
 #u412-bw
 {
 	z-index: 86;
-	height: 180px;
+	min-height: 180px;
 }
 
 #u415
 {
 	z-index: 95;
+	min-height: 148px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #FAFAFA;
@@ -538,12 +549,13 @@
 #u415-bw
 {
 	z-index: 95;
-	height: 148px;
+	min-height: 148px;
 }
 
 #u418
 {
 	z-index: 104;
+	min-height: 114px;
 	border-style: none;
 	border-color: transparent;
 	background-color: #EEEEEE;
@@ -599,7 +611,7 @@
 #u418-bw
 {
 	z-index: 104;
-	height: 114px;
+	min-height: 114px;
 }
 
 #u424-4

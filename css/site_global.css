@@ -156,6 +156,7 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-align: left;
 	text-decoration: none;
 	text-indent: 0px;
+	text-transform: none;
 	vertical-align: 0px;
 	padding: 0px;
 }
@@ -553,5 +554,24 @@ textarea
 .pointer_cursor,.fld-recaptcha-mode,.fld-recaptcha-refresh,.fld-recaptcha-help
 {
 	cursor: pointer;
+}
+
+p,h1,h2,h3,h4,h5,h6,ol,ul,span.actAsPara /* disable Android font boosting */
+{
+	max-height: 1000000px;
+}
+
+.superscript
+{
+	vertical-align: super;
+	font-size: 66%;
+	line-height: 0;
+}
+
+.subscript
+{
+	vertical-align: sub;
+	font-size: 66%;
+	line-height: 0;
 }
 
