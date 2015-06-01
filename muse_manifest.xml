@@ -1,16 +1,16 @@
-<manifest alg="2" build="44" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1429200076695">
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x,2x" timestamp="1433131395614">
   <folder name="css">
-    <file name="site_global.css" crc="290395470"/>
-    <file name="index.css" crc="4132637951" ref="index"/>
-    <file name="goazure.css" crc="3946582230" ref="goazure"/>
-    <file name="goazure-sessions.css" crc="492794828" ref="goazure-sessions"/>
+    <file name="site_global.css" crc="3832521127"/>
+    <file name="index.css" crc="4241078101" ref="index"/>
+    <file name="goazure.css" crc="3985240074" ref="goazure"/>
+    <file name="goazure-sessions.css" crc="504614691" ref="goazure-sessions"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="364326742" ref="index:goazure:goazure-sessions"/>
-    <file name="museutils.js" crc="479751881" ref="index:goazure:goazure-sessions"/>
-    <file name="jquery.watch.js" crc="4232581965" ref="index:goazure:goazure-sessions"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="503158633" ref="goazure"/>
-    <file name="jquery.scrolleffects.js" crc="445554118" ref="goazure"/>
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:goazure:goazure-sessions"/>
+    <file name="museutils.js" crc="521960461" ref="index:goazure:goazure-sessions"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index:goazure:goazure-sessions"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="goazure"/>
+    <file name="jquery.scrolleffects.js" crc="4038615763" ref="goazure"/>
   </folder>
   <folder name="images">
     <file name="jazcat-icon.png" crc="4006438227" ref="index:goazure:goazure-sessions"/>
@@ -73,7 +73,7 @@
     <file name="u261-6.png" crc="124146510" ref="goazure-sessions"/>
     <file name="u261-6_2x.png" crc="4077619044" ref="goazure-sessions"/>
   </folder>
-  <file name="index.html" crc="3900752081" mt="1428037916716" redirect="true"/>
-  <file name="goazure.html" crc="362675982" mt="1415699214935" redirect="true"/>
-  <file name="goazure-sessions.html" crc="61342548" mt="1417846905957" redirect="true"/>
+  <file name="index.html" crc="121039587" mt="1433131289305" redirect="true"/>
+  <file name="goazure.html" crc="3811250557" mt="1415699214935" redirect="true"/>
+  <file name="goazure-sessions.html" crc="191122515" mt="1417846905957" redirect="true"/>
 </manifest>

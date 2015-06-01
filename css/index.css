@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000F6;
-	background-color: #530CFF;
+	color: #0000FC;
+	background-color: #C9B755;
 }
 
 .html
@@ -261,8 +261,8 @@
 	border-color: #FFFFFF;
 	background-color: transparent;
 	line-height: 42px;
-	font-size: 24px;
 	color: #FFFFFF;
+	font-size: 24px;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	position: relative;
 	margin-right: -10000px;

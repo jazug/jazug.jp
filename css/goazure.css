@@ -1,7 +1,7 @@
 .version.goazure /* version checker */
 {
-	color: #0000EB;
-	background-color: #3C10D6;
+	color: #0000ED;
+	background-color: #89F00A;
 }
 
 .html
@@ -79,8 +79,8 @@
 	width: 446px;
 	min-height: 261px;
 	background-color: transparent;
-	text-align: center;
 	color: #FFFFFF;
+	text-align: center;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	left: 507px;
 	margin-top: 44px;

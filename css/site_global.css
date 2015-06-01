@@ -113,12 +113,6 @@ a.nontext /* used to override default properties of 'a' tag */
 	font-weight: normal;
 }
 
-.ts a
-{
-	color: inherit;
-	text-decoration: inherit;
-}
-
 .ts a:link
 {
 	color: #FFFFFF;
