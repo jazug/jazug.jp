@@ -1,0 +1,110 @@
+#u478_states
+{
+	vertical-align: top;
+	background: url("../images/u478_states.png") no-repeat 0px 0px;
+}
+
+#u478:hover #u478_states
+{
+	background: url("../images/u478_states-r.png") no-repeat 0px 0px;
+}
+
+.hidpi #u478:hover #u478_states
+{
+	background-image: url("../images/u478_states_2x.png");
+	background-image: url("../images/u478_states-r_2x.png");
+	background-image: url("../images/u478_states-r_2x.png");
+	background-image: url("../images/u478_states-r_2x.png");
+	background-size: 18px 35px;
+}
+
+#u450_states
+{
+	vertical-align: top;
+	background: url("../images/u450_states.png") no-repeat 0px 0px;
+}
+
+#u450:hover #u450_states
+{
+	background: url("../images/u450_states-r.png") no-repeat 0px 0px;
+}
+
+.hidpi #u450:hover #u450_states
+{
+	background-image: url("../images/u450_states_2x.png");
+	background-image: url("../images/u450_states-r_2x.png");
+	background-image: url("../images/u450_states-r_2x.png");
+	background-image: url("../images/u450_states-r_2x.png");
+	background-size: 98px 26px;
+}
+
+#u471_states
+{
+	vertical-align: top;
+	background: url("../images/u471_states.png") no-repeat 0px 0px;
+}
+
+#u471:hover #u471_states
+{
+	background: url("../images/u471_states-r.png") no-repeat 0px 0px;
+}
+
+.hidpi #u471:hover #u471_states
+{
+	background-image: url("../images/u471_states_2x.png");
+	background-image: url("../images/u471_states-r_2x.png");
+	background-image: url("../images/u471_states-r_2x.png");
+	background-image: url("../images/u471_states-r_2x.png");
+	background-size: 100px 26px;
+}
+
+#u461-5,#u460-5
+{
+	background-color: transparent;
+	line-height: 25px;
+	color: #333333;
+	text-align: right;
+	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+	font-weight: bold;
+	position: relative;
+}
+
+#u433
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: #0071BC;
+}
+
+#top,#u478,#u450,#u471,#u458,#u462,#u433_align_to_page,#u435-4
+{
+	position: relative;
+}
+
+#u435-4_img
+{
+	display: block;
+	vertical-align: top;
+}
+
+#u434-4,#u438-6
+{
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u457,#u431,#u436,#u439
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	position: relative;
+}
+
+#u472,#u444
+{
+	background-color: transparent;
+	position: relative;
+}
+
