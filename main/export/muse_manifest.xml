@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1440261936405">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1440291164942">
   <folder name="css">
     <file name="site_global.css" crc="340859273"/>
     <file name="master_a-____.css" crc="4268750396" ref="groups:log:index"/>
-    <file name="groups.css" crc="330937249" ref="groups"/>
-    <file name="log.css" crc="325000593" ref="log"/>
-    <file name="index.css" crc="211981339" ref="index"/>
+    <file name="groups.css" crc="521188994" ref="groups"/>
+    <file name="log.css" crc="3807740890" ref="log"/>
+    <file name="index.css" crc="3914317657" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:log:groups"/>
@@ -13,8 +13,6 @@
   </folder>
   <folder name="images">
     <file name="a-マスター-favicon.ico" crc="116213946" ref="index"/>
-    <file name="logonew172x76.png" crc="390307058" seo="true" ref="index"/>
-    <file name="logonew172x76_2x.png" crc="498480432" seo="true" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:log:groups"/>
     <file name="u478_states.png" crc="3851302674" ref="index:log:groups"/>
     <file name="u478_states-r.png" crc="4245390332" ref="index:log:groups"/>
@@ -52,8 +50,10 @@
     <file name="u505-4_2x.png" crc="4086614645" ref="log"/>
     <file name="u511-4.png" crc="431129087" ref="groups"/>
     <file name="u511-4_2x.png" crc="496079015" ref="groups"/>
+    <file name="logonew155x57.png" crc="199013385" seo="true" ref="index"/>
+    <file name="logonew155x57_2x.png" crc="3855957601" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="4130811447" seo="true" mt="1440261773971" redirect="true"/>
-  <file name="log.html" crc="454623140" seo="true" mt="1440261773971" redirect="true"/>
-  <file name="groups.html" crc="191202912" seo="true" mt="1440261773971" redirect="true"/>
+  <file name="index.html" crc="158640244" seo="true" mt="1440291145856" redirect="true"/>
+  <file name="log.html" crc="3904862181" seo="true" mt="1440291063347" redirect="true"/>
+  <file name="groups.html" crc="4153222149" seo="true" mt="1440291063347" redirect="true"/>
 </manifest>
