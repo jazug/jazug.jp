@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1440291164942">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1441373116232">
   <folder name="css">
     <file name="site_global.css" crc="340859273"/>
-    <file name="master_a-____.css" crc="4268750396" ref="groups:log:index"/>
+    <file name="master_a-____.css" crc="4269964127" ref="groups:log:index"/>
     <file name="groups.css" crc="521188994" ref="groups"/>
     <file name="log.css" crc="3807740890" ref="log"/>
-    <file name="index.css" crc="3914317657" ref="index"/>
+    <file name="index.css" crc="397197832" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:log:groups"/>
@@ -30,8 +30,6 @@
     <file name="icon-twitter_poster_.png" crc="120329334" ref="index"/>
     <file name="icon-facebook.svg" crc="477645231" ref="index:log:groups"/>
     <file name="icon-facebook_poster_.png" crc="3992937495" ref="index"/>
-    <file name="go5jazug.svg" crc="513125801" ref="index"/>
-    <file name="go5jazug_poster_.png" crc="4267402852" ref="index"/>
     <file name="u158_states.png" crc="3802952192" ref="index"/>
     <file name="u158_states-r.png" crc="446095323" ref="index"/>
     <file name="u158_states_2x.png" crc="3800869121" ref="index"/>
@@ -53,7 +51,7 @@
     <file name="logonew155x57.png" crc="199013385" seo="true" ref="index"/>
     <file name="logonew155x57_2x.png" crc="3855957601" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="158640244" seo="true" mt="1440291145856" redirect="true"/>
+  <file name="index.html" crc="3901619913" seo="true" mt="1441373095059" redirect="true"/>
   <file name="log.html" crc="3904862181" seo="true" mt="1440291063347" redirect="true"/>
   <file name="groups.html" crc="4153222149" seo="true" mt="1440291063347" redirect="true"/>
 </manifest>

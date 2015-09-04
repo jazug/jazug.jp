@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000E9;
-	background-color: #4FBF59;
+	color: #000017;
+	background-color: #ACC208;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 2079px;
+	min-height: 2144px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -127,18 +127,21 @@
 	left: 127px;
 }
 
-#u531
+#u546
 {
-	z-index: 47;
-	overflow: hidden;
-	margin-left: 64px;
-	margin-top: 22px;
+	z-index: 98;
+	width: 960px;
+	min-height: 509px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-top: 47px;
 	position: relative;
 }
 
 #u152-26
 {
-	z-index: 48;
+	z-index: 47;
 	width: 704px;
 	min-height: 364px;
 	background-color: transparent;
@@ -146,6 +149,7 @@
 	text-align: center;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	margin-left: 128px;
+	margin-top: 34px;
 	position: relative;
 }
 
@@ -163,7 +167,7 @@
 
 #u158
 {
-	z-index: 75;
+	z-index: 74;
 	margin-left: 234px;
 	margin-top: 35px;
 	position: relative;
@@ -191,23 +195,23 @@
 
 #u542
 {
-	z-index: 97;
+	z-index: 96;
 	width: 50px;
 	background-color: transparent;
 	margin-left: 455px;
-	margin-top: 65px;
+	margin-top: 51px;
 	position: relative;
 }
 
 #pu539
 {
 	width: 0.01px;
-	margin-top: 66px;
+	margin-top: 51px;
 }
 
 #u539
 {
-	z-index: 95;
+	z-index: 94;
 	width: 275px;
 	background-color: transparent;
 	position: relative;
@@ -216,7 +220,7 @@
 
 #u318-18
 {
-	z-index: 77;
+	z-index: 76;
 	width: 608px;
 	min-height: 287px;
 	background-color: transparent;
@@ -249,7 +253,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: 67px;
+	margin-top: 66px;
 }
 
 #u433
