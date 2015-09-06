@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1440291164942">
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1441553105636">
   <folder name="css">
-    <file name="site_global.css" crc="340859273"/>
-    <file name="master_a-____.css" crc="4268750396" ref="groups:log:index"/>
+    <file name="site_global.css" crc="4051717382"/>
+    <file name="master_a-____.css" crc="4007177811" ref="groups:log:index"/>
     <file name="groups.css" crc="521188994" ref="groups"/>
-    <file name="log.css" crc="3807740890" ref="log"/>
-    <file name="index.css" crc="3914317657" ref="index"/>
+    <file name="log.css" crc="12242511" ref="log"/>
+    <file name="index.css" crc="172602941" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:log:groups"/>
@@ -32,10 +32,10 @@
     <file name="icon-facebook_poster_.png" crc="3992937495" ref="index"/>
     <file name="go5jazug.svg" crc="513125801" ref="index"/>
     <file name="go5jazug_poster_.png" crc="4267402852" ref="index"/>
-    <file name="u158_states.png" crc="3802952192" ref="index"/>
-    <file name="u158_states-r.png" crc="446095323" ref="index"/>
-    <file name="u158_states_2x.png" crc="3800869121" ref="index"/>
-    <file name="u158_states-r_2x.png" crc="57396754" ref="index"/>
+    <file name="u158_states.png" crc="4265287321" ref="index"/>
+    <file name="u158_states-r.png" crc="479880912" ref="index"/>
+    <file name="u158_states_2x.png" crc="4290458960" ref="index"/>
+    <file name="u158_states-r_2x.png" crc="116563689" ref="index"/>
     <file name="jazcat-icon.png" crc="334948496" seo="true" ref="index:log:groups"/>
     <file name="jazcat-icon_2x.png" crc="4190923520" seo="true" ref="index:log:groups"/>
     <file name="logonew1.png" crc="3778479571" seo="true" ref="index"/>
@@ -53,7 +53,7 @@
     <file name="logonew155x57.png" crc="199013385" seo="true" ref="index"/>
     <file name="logonew155x57_2x.png" crc="3855957601" seo="true" ref="index"/>
   </folder>
-  <file name="index.html" crc="158640244" seo="true" mt="1440291145856" redirect="true"/>
-  <file name="log.html" crc="3904862181" seo="true" mt="1440291063347" redirect="true"/>
+  <file name="index.html" crc="3960772378" seo="true" mt="1441551505924" redirect="true"/>
+  <file name="log.html" crc="175115285" seo="true" mt="1441553091143" redirect="true"/>
   <file name="groups.html" crc="4153222149" seo="true" mt="1440291063347" redirect="true"/>
 </manifest>

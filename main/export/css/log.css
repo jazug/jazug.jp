@@ -1,7 +1,7 @@
 .version.log /* version checker */
 {
-	color: #0000E2;
-	background-color: #F583DA;
+	color: #000000;
+	background-color: #BACE4F;
 }
 
 .html
@@ -13,7 +13,7 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 1202.9999999999998px;
+	min-height: 1258.9999999999998px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
@@ -144,8 +144,8 @@
 	width: 211px;
 	min-height: 43px;
 	background-color: transparent;
-	line-height: 42px;
 	color: #E21E79;
+	line-height: 42px;
 	font-size: 24px;
 	text-align: center;
 	font-family: actor, sans-serif;
@@ -155,11 +155,11 @@
 	position: relative;
 }
 
-#u509-12
+#u509-19
 {
 	z-index: 72;
 	width: 468px;
-	min-height: 34px;
+	min-height: 99px;
 	background-color: transparent;
 	line-height: 32px;
 	font-size: 18px;
@@ -175,14 +175,14 @@
 	width: 211px;
 	min-height: 43px;
 	background-color: transparent;
-	line-height: 42px;
 	color: #E21E79;
+	line-height: 42px;
 	font-size: 24px;
 	text-align: center;
 	font-family: actor, sans-serif;
 	font-weight: 400;
 	margin-left: 375px;
-	margin-top: 40px;
+	margin-top: 37px;
 	position: relative;
 }
 
@@ -202,12 +202,12 @@
 
 #u510-4
 {
-	z-index: 84;
+	z-index: 91;
 	width: 255px;
 	min-height: 23px;
 	background-color: transparent;
-	line-height: 21px;
 	color: #7F7F7F;
+	line-height: 21px;
 	font-size: 12px;
 	text-align: center;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
@@ -220,7 +220,7 @@
 {
 	width: 0.01px;
 	margin-left: -100px;
-	margin-top: 38px;
+	margin-top: 62px;
 }
 
 #u433

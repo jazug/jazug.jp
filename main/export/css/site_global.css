@@ -147,7 +147,7 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 }
 
-.stealth a,.ts1 a
+.ts a,.stealth a,.ts1 a
 {
 	color: inherit;
 	text-decoration: inherit;

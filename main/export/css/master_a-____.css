@@ -14,7 +14,6 @@
 	background-image: url("../images/u478_states_2x.png");
 	background-image: url("../images/u478_states-r_2x.png");
 	background-image: url("../images/u478_states-r_2x.png");
-	background-image: url("../images/u478_states-r_2x.png");
 	background-size: 18px 35px;
 }
 
@@ -32,7 +31,6 @@
 .hidpi #u450:hover #u450_states
 {
 	background-image: url("../images/u450_states_2x.png");
-	background-image: url("../images/u450_states-r_2x.png");
 	background-image: url("../images/u450_states-r_2x.png");
 	background-image: url("../images/u450_states-r_2x.png");
 	background-size: 98px 26px;
@@ -54,15 +52,14 @@
 	background-image: url("../images/u471_states_2x.png");
 	background-image: url("../images/u471_states-r_2x.png");
 	background-image: url("../images/u471_states-r_2x.png");
-	background-image: url("../images/u471_states-r_2x.png");
 	background-size: 100px 26px;
 }
 
 #u461-5,#u460-5
 {
 	background-color: transparent;
-	line-height: 25px;
 	color: #333333;
+	line-height: 25px;
 	text-align: right;
 	font-family: ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
 	font-weight: bold;
