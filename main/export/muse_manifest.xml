@@ -1,9 +1,9 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1475776119028">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1475776240988">
   <folder name="css">
     <file name="site_global.css" crc="4072477885"/>
     <file name="master_a-____.css" crc="3834975144" ref="groups:index:log"/>
     <file name="groups.css" crc="330736741" ref="groups"/>
-    <file name="index.css" crc="4270244607" ref="index"/>
+    <file name="index.css" crc="333700498" ref="index"/>
     <file name="log.css" crc="3804797446" ref="log"/>
   </folder>
   <folder name="scripts">
@@ -48,7 +48,7 @@
     <file name="u511-4.png" crc="3865070616" ref="groups"/>
     <file name="u511-4_2x.png" crc="365482070" ref="groups"/>
   </folder>
-  <file name="index.html" crc="446411544" seo="true" mt="1475776103777" redirect="true"/>
+  <file name="index.html" crc="4211985425" seo="true" mt="1475776229537" redirect="true"/>
   <file name="log.html" crc="156998065" seo="true" mt="1475776103777" redirect="true"/>
   <file name="groups.html" crc="236883417" seo="true" mt="1475776103777" redirect="true"/>
 </manifest>
