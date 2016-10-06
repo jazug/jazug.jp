@@ -1,3 +1,35 @@
-(function(b){b.extend(b.fn,{watch:function(c,a,d){var f=document.createElement("div"),h=function(a,d){var a="on"+a,b=a in d;b||(d.setAttribute(a,"return;"),b=typeof d[a]=="function");"onpropertychange"==a&&jQuery.browser.msie&&jQuery.browser.version>=9&&(b=!1);return b};typeof a=="function"&&(d=a,a={});typeof d!="function"&&(d=function(){});a=b.extend({},{throttle:10},a);return this.each(function(){var i=b(this),g=function(){for(var a=i.data(),d=!1,b,f=0;f<a.props.length;f++)if(b=i.css(a.props[f]),
-a.vals[f]!=b){a.vals[f]=b;d=!0;break}d&&a.cb&&a.cb.call(i,a)},j={props:c.split(","),cb:d,vals:[]};b.each(j.props,function(a){j.vals[a]=i.css(j.props[a])});i.data(j);if(h("DOMAttrModified",f))i.on("DOMAttrModified",d);else if(h("propertychange",f))i.on("propertychange",d);else setInterval(g,a.throttle)})}})})(jQuery);
-;(function(){if(!("undefined"==typeof Muse||"undefined"==typeof Muse.assets)){var a=function(a,b){for(var c=0,d=a.length;c<d;c++)if(a[c]==b)return c;return-1}(Muse.assets.required,"jquery.watch.js");if(-1!=a){Muse.assets.required.splice(a,1);for(var a=document.getElementsByTagName("meta"),b=0,c=a.length;b<c;b++){var d=a[b];if("generator"==d.getAttribute("name")){"2015.0.2.310"!=d.getAttribute("content")&&Muse.assets.outOfDate.push("jquery.watch.js");break}}}}})();
+/*
+
+ jQuery Watch Plugin
+
+ @author Darcy Clarke
+ @version 2.0
+
+ Copyright (c) 2012 Darcy Clarke
+ Dual licensed under the MIT and GPL licenses.
+
+ ADDS: 
+
+ - $.watch()
+
+ USES:
+
+ - DOMAttrModified event
+
+ FALLBACKS:
+
+ - propertychange event
+ - setTimeout() with delay 
+
+ EXAMPLE:
+
+ $('div').watch('width height', function(){
+ console.log(this.style.width, this.style.height);
+ });
+
+ $('div').animate({width:'100px',height:'200px'}, 500);
+
+*/
+(function(d){"function"===typeof define&&define.amd&&define.amd.jQuery?define(["jquery"],d):d(jQuery)})(function(d){d.extend(d.fn,{watch:function(b,c,a){var g=document.createElement("div"),j=function(a,b){var a="on"+a,c=a in b;c||(b.setAttribute(a,"return;"),c=typeof b[a]=="function");"onpropertychange"==a&&d.browser.msie&&d.browser.version>=9&&(c=!1);return c};typeof c=="function"&&(a=c,c={});typeof a!="function"&&(a=function(){});c=d.extend({},{throttle:10},c);return this.each(function(){var f=
+d(this),i=function(){for(var a=f.data(),b=!1,c,d=0;d<a.props.length;d++)if(c=f.css(a.props[d]),a.vals[d]!=c){a.vals[d]=c;b=!0;break}b&&a.cb&&a.cb.call(f,a)},h={props:b.split(","),cb:a,vals:[]};d.each(h.props,function(a){h.vals[a]=f.css(h.props[a])});f.data(h);if(j("DOMAttrModified",g))f.on("DOMAttrModified",a);else if(j("propertychange",g))f.on("propertychange",a);else setInterval(i,c.throttle)})}})});
+;(function(){if(!("undefined"==typeof Muse||"undefined"==typeof Muse.assets)){var a=function(a,b){for(var c=0,d=a.length;c<d;c++)if(a[c]==b)return c;return-1}(Muse.assets.required,"jquery.watch.js");if(-1!=a){Muse.assets.required.splice(a,1);for(var a=document.getElementsByTagName("meta"),b=0,c=a.length;b<c;b++){var d=a[b];if("generator"==d.getAttribute("name")){"2015.2.1.352"!=d.getAttribute("content")&&Muse.assets.outOfDate.push("jquery.watch.js");break}}}}})();

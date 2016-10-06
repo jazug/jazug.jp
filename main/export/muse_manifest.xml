@@ -1,59 +1,54 @@
-<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1441553294676">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="jazug-teaser.azurewebsites.net" resolutions="1x,2x" timestamp="1475776119028">
   <folder name="css">
-    <file name="site_global.css" crc="4051717382"/>
-    <file name="master_a-____.css" crc="4007177811" ref="groups:log:index"/>
-    <file name="groups.css" crc="521188994" ref="groups"/>
-    <file name="log.css" crc="12242511" ref="log"/>
-    <file name="index.css" crc="172602941" ref="index"/>
+    <file name="site_global.css" crc="4072477885"/>
+    <file name="master_a-____.css" crc="3834975144" ref="groups:index:log"/>
+    <file name="groups.css" crc="330736741" ref="groups"/>
+    <file name="index.css" crc="4270244607" ref="index"/>
+    <file name="log.css" crc="3804797446" ref="log"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index:log:groups"/>
-    <file name="museutils.js" crc="275725342" ref="index:log:groups"/>
-    <file name="jquery.watch.js" crc="3999102769" ref="index:log:groups"/>
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:log:groups"/>
+    <file name="museutils.js" crc="3851988764" ref="index:log:groups"/>
+    <file name="whatinput.js" crc="86476730" ref="index:log:groups"/>
+    <file name="museconfig.js" crc="169177150" ref="index:log:groups"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index:log:groups"/>
+    <file name="require.js" crc="4108833657" ref="index:log:groups"/>
   </folder>
   <folder name="images">
     <file name="a-マスター-favicon.ico" crc="116213946" ref="index"/>
+    <file name="logonew155x57.png" crc="4024863338" seo="true" ref="index"/>
+    <file name="logonew155x57_2x.png" crc="4239820432" seo="true" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index:log:groups"/>
-    <file name="u478_states.png" crc="3851302674" ref="index:log:groups"/>
-    <file name="u478_states-r.png" crc="4245390332" ref="index:log:groups"/>
-    <file name="u478_states_2x.png" crc="343272445" ref="index:log:groups"/>
-    <file name="u478_states-r_2x.png" crc="4021286240" ref="index:log:groups"/>
-    <file name="u450_states.png" crc="3854182070" ref="index:log:groups"/>
-    <file name="u450_states-r.png" crc="128475916" ref="index:log:groups"/>
-    <file name="u450_states_2x.png" crc="3910005733" ref="index:log:groups"/>
-    <file name="u450_states-r_2x.png" crc="38565028" ref="index:log:groups"/>
-    <file name="u471_states.png" crc="3885076697" ref="index:log:groups"/>
-    <file name="u471_states-r.png" crc="3868993753" ref="index:log:groups"/>
-    <file name="u471_states_2x.png" crc="504141928" ref="index:log:groups"/>
-    <file name="u471_states-r_2x.png" crc="372544379" ref="index:log:groups"/>
-    <file name="icon-twitter.svg" crc="4085347098" ref="index:log:groups"/>
-    <file name="icon-twitter_poster_.png" crc="120329334" ref="index"/>
-    <file name="icon-facebook.svg" crc="477645231" ref="index:log:groups"/>
-    <file name="icon-facebook_poster_.png" crc="3992937495" ref="index"/>
-    <file name="go5jazug.svg" crc="513125801" ref="index"/>
-    <file name="go5jazug_poster_.png" crc="4267402852" ref="index"/>
-    <file name="u158_states.png" crc="4265287321" ref="index"/>
-    <file name="u158_states-r.png" crc="479880912" ref="index"/>
-    <file name="u158_states_2x.png" crc="4290458960" ref="index"/>
-    <file name="u158_states-r_2x.png" crc="116563689" ref="index"/>
-    <file name="jazcat-icon.png" crc="334948496" seo="true" ref="index:log:groups"/>
+    <file name="u478_states.png" crc="4242102954" ref="index:log:groups"/>
+    <file name="u478_states_2x.png" crc="4219497235" ref="index:log:groups"/>
+    <file name="u478_states-r.png" crc="3856600942" ref="index:log:groups"/>
+    <file name="u478_states-r_2x.png" crc="91136960" ref="index:log:groups"/>
+    <file name="icon-twitter.svg" crc="4085347098" seo="true" ref="index:log:groups"/>
+    <file name="icon-twitter_poster_.png" crc="3839792647" ref="index"/>
+    <file name="icon-facebook.svg" crc="477645231" seo="true" ref="index:log:groups"/>
+    <file name="icon-facebook_poster_.png" crc="4246120810" ref="index"/>
+    <file name="cover.svg" crc="64904323" seo="true" ref="index"/>
+    <file name="cover_poster_.png" crc="72892659" ref="index"/>
+    <file name="u158_states.png" crc="3984904861" ref="index"/>
+    <file name="u158_states_2x.png" crc="3944853991" ref="index"/>
+    <file name="u158_states-r.png" crc="513398289" ref="index"/>
+    <file name="u158_states-r_2x.png" crc="348884365" ref="index"/>
+    <file name="jazcat-icon.png" crc="4248810960" seo="true" ref="index:log:groups"/>
     <file name="jazcat-icon_2x.png" crc="4190923520" seo="true" ref="index:log:groups"/>
-    <file name="logonew1.png" crc="3778479571" seo="true" ref="index"/>
+    <file name="logonew1.png" crc="4166884511" seo="true" ref="index"/>
     <file name="logonew1_2x.png" crc="3850164867" seo="true" ref="index"/>
-    <file name="u435-4.png" crc="155823423" ref="index:log:groups"/>
-    <file name="u435-4_2x.png" crc="4277479140" ref="index:log:groups"/>
-    <file name="u434-4.png" crc="188200317" ref="index:log:groups"/>
-    <file name="u434-4_2x.png" crc="372308402" ref="index:log:groups"/>
-    <file name="u438-6.png" crc="103044686" ref="index:log:groups"/>
-    <file name="u438-6_2x.png" crc="4223618222" ref="index:log:groups"/>
-    <file name="u505-4.png" crc="3913820347" ref="log"/>
-    <file name="u505-4_2x.png" crc="4086614645" ref="log"/>
-    <file name="u511-4.png" crc="431129087" ref="groups"/>
-    <file name="u511-4_2x.png" crc="496079015" ref="groups"/>
-    <file name="logonew155x57.png" crc="199013385" seo="true" ref="index"/>
-    <file name="logonew155x57_2x.png" crc="3855957601" seo="true" ref="index"/>
+    <file name="u435-4.png" crc="3796807605" ref="index:log:groups"/>
+    <file name="u435-4_2x.png" crc="150619397" ref="index:log:groups"/>
+    <file name="u438-6.png" crc="186987284" ref="index:log:groups"/>
+    <file name="u438-6_2x.png" crc="3999670725" ref="index:log:groups"/>
+    <file name="u434-4.png" crc="4152902864" ref="index:log:groups"/>
+    <file name="u434-4_2x.png" crc="221444918" ref="index:log:groups"/>
+    <file name="u505-4.png" crc="3800773399" ref="log"/>
+    <file name="u505-4_2x.png" crc="4220046402" ref="log"/>
+    <file name="u511-4.png" crc="3865070616" ref="groups"/>
+    <file name="u511-4_2x.png" crc="365482070" ref="groups"/>
   </folder>
-  <file name="index.html" crc="3960772378" seo="true" mt="1441551505924" redirect="true"/>
-  <file name="log.html" crc="175115285" seo="true" mt="1441553091143" redirect="true"/>
-  <file name="groups.html" crc="4153222149" seo="true" mt="1440291063347" redirect="true"/>
+  <file name="index.html" crc="446411544" seo="true" mt="1475776103777" redirect="true"/>
+  <file name="log.html" crc="156998065" seo="true" mt="1475776103777" redirect="true"/>
+  <file name="groups.html" crc="236883417" seo="true" mt="1475776103777" redirect="true"/>
 </manifest>
